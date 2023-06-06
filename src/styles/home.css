@@ -1,0 +1,24 @@
+.home-container{
+    display:grid;
+    grid-template-columns: repeat(3,1fr);
+}
+img{
+    width: 200px;
+    height: 200px;
+    margin-top: 20px;
+}
+
+.addCartBtn{
+    width: 150px;
+    height: 30px;
+    border-radius: 8px;
+    background: black;
+    color: white;
+    text-align: center;
+    font-weight: bold;
+    
+    }
+
+
+
+    
