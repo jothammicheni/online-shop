@@ -58,14 +58,14 @@ const Sell = () => {
     <div className='seller-container'>
       <div className='form-container'>
         <h1>sell with us</h1>
-        <div className='seller form'>
+        <div className='seller formm'>
           <form onSubmit={handleSubmit}>
             <div>
               <label htmlFor='name'>Enter Item name:</label>
               <input name='name' id='name' placeholder='Enter Item name' value={name} onChange={handleNameChange} />
             </div>
             <div>
-              <label htmlFor='price'>Enter Item price:</label>
+              <label htmlFor='price'>Enter Item prices:</label>
               <input name='price' id='price' placeholder='Enter Item Price' value={price} onChange={handlePriceChange} />
             </div>
             <div>
